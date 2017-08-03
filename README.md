@@ -8,6 +8,8 @@ This initial tutorial will get you started with ARKit in iOS with examples and l
 
 This project contains the source code for the initial chapter of the tutorial, found [here](https://digitalleaves.com/blog/2017/08/augmented-reality-arkit/).
 
+https://vimeo.com/228202792
+
 # MIT License
 
 Copyright (c) 2017 Ignacio Nieto Carvajal.
