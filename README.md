@@ -4,6 +4,8 @@ This is a series of tutorials focused on Augmented Reality with ARKit. Alongside
 
 This initial tutorial will get you started with ARKit in iOS with examples and little to no theory. First, we will start with just some basic concepts. Then, we will learn how to load different types of model, from static object to animated figures, mainly using SceneKit. Also, I will show you how to import blender models into ARKit. By the end of this tutorial, you will be able to load and place virtual objects in the real world.
 
+https://vimeo.com/228202792
+
 # About This Project
 
 This project contains the source code for the initial chapter of the tutorial, found [here](https://digitalleaves.com/blog/2017/08/augmented-reality-arkit/).
