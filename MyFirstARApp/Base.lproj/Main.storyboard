@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H8r-qQ-gZk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Choose Model View Controller-->
+        <scene sceneID="j1v-ME-8Xi">
+            <objects>
+                <viewController id="KWv-Qh-zxu" customClass="ChooseModelViewController" customModule="MyFirstARApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="NUr-u6-4HF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My first augmented reality app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhU-6b-cxj">
+                                <rect key="frame" x="16" y="80" width="343" height="72"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dN0-Yt-LKe">
+                                <rect key="frame" x="97" y="251" width="180" height="35"/>
+                                <color key="backgroundColor" red="0.93225806950000001" green="0.6271757483" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="DbB-eP-zyR"/>
+                                    <constraint firstAttribute="width" constant="180" id="Qmj-WR-Tsx"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Geometric Figures"/>
+                                <connections>
+                                    <action selector="chooseGeometricFiguresModel:" destination="KWv-Qh-zxu" eventType="touchUpInside" id="pZy-yM-Eju"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cR-LB-THG">
+                                <rect key="frame" x="97" y="310" width="180" height="35"/>
+                                <color key="backgroundColor" red="0.7573328614" green="0.1874133348" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ms5-kM-XrA"/>
+                                    <constraint firstAttribute="width" constant="180" id="wyJ-Xt-Co8"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Animated Object"/>
+                                <connections>
+                                    <action selector="chooseAnimatedModel:" destination="KWv-Qh-zxu" eventType="touchUpInside" id="IZO-uU-QcI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLd-Z6-pph">
+                                <rect key="frame" x="97" y="192" width="180" height="35"/>
+                                <color key="backgroundColor" red="0.96650534870000004" green="0.73835831880000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="0ho-Fu-b3w"/>
+                                    <constraint firstAttribute="height" constant="35" id="Vwg-Z8-Tre"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Simple 3d Model"/>
+                                <connections>
+                                    <action selector="chooseSimple3dModel:" destination="KWv-Qh-zxu" eventType="touchUpInside" id="AZz-xo-uA5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NLd-Z6-pph" firstAttribute="top" secondItem="dhU-6b-cxj" secondAttribute="bottom" constant="40" id="85w-vz-Qzs"/>
+                            <constraint firstItem="dhU-6b-cxj" firstAttribute="leading" secondItem="Krw-Cb-ISC" secondAttribute="leading" constant="16" id="Coq-S5-T61"/>
+                            <constraint firstItem="NLd-Z6-pph" firstAttribute="centerX" secondItem="Krw-Cb-ISC" secondAttribute="centerX" id="QZ4-nH-Z9V"/>
+                            <constraint firstItem="5cR-LB-THG" firstAttribute="centerX" secondItem="dN0-Yt-LKe" secondAttribute="centerX" id="TL3-4W-9QT"/>
+                            <constraint firstItem="dN0-Yt-LKe" firstAttribute="centerX" secondItem="NLd-Z6-pph" secondAttribute="centerX" id="UkU-ud-lGh"/>
+                            <constraint firstItem="Krw-Cb-ISC" firstAttribute="trailing" secondItem="dhU-6b-cxj" secondAttribute="trailing" constant="16" id="VKX-Ma-qie"/>
+                            <constraint firstItem="dN0-Yt-LKe" firstAttribute="top" secondItem="NLd-Z6-pph" secondAttribute="bottom" constant="24" id="YwQ-ve-DVi"/>
+                            <constraint firstItem="5cR-LB-THG" firstAttribute="top" secondItem="dN0-Yt-LKe" secondAttribute="bottom" constant="24" id="jfC-5c-gae"/>
+                            <constraint firstItem="dhU-6b-cxj" firstAttribute="top" secondItem="Krw-Cb-ISC" secondAttribute="top" constant="16" id="yWJ-Xl-9DF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Krw-Cb-ISC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9B9-uG-KKV"/>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="showModel" id="7E1-wn-BYp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qMl-as-eIg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-327.19999999999999" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="MyFirstARApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BrB-h1-WRS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="138.98050974512745"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d9n-pE-6tk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="H8r-qQ-gZk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5tG-nZ-lIT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KWv-Qh-zxu" kind="relationship" relationship="rootViewController" id="OWE-u6-deU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DIO-Di-6tY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1146" y="139"/>
+        </scene>
+    </scenes>
+</document>
