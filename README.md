@@ -8,7 +8,8 @@ This initial tutorial will get you started with ARKit in iOS with examples and l
 
 This project contains the source code for the initial chapter of the tutorial, found [here](https://digitalleaves.com/blog/2017/08/augmented-reality-arkit/).
 
-https://vimeo.com/228202792
+<iframe src="https://player.vimeo.com/video/228202792" width="640" height="1138" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/228202792">Augmented Reality With ARKit for iOS</a> from <a href="https://vimeo.com/digitalleaves">Digital Leaves</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 # MIT License
 
